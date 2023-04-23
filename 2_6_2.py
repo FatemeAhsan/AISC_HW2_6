@@ -5,14 +5,6 @@ import numpy as np
 import math
 
 l = 125
-lx1 = 220.
-ly1 = 170.
-lx2 = 400.
-ly2 = 330.
-
-m = (ly2 - ly1) / (lx2-lx1)
-
-b = -m * lx1 + ly1
 
 model = YOLO('models/yolov8x')
 
